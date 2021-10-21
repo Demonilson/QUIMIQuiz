@@ -75,6 +75,7 @@ public class responder : MonoBehaviour
         ////dicaPergunta.text = dicas[idPergunta];
 
         infoRespostas.text = "Respondendo " + (idPergunta + 1).ToString() + " de " + questoes.ToString()+" perguntas";
+ 
     }
 
    
@@ -82,7 +83,6 @@ public class responder : MonoBehaviour
     public void resposta(string alternativa)
     {
         
-
         if (alternativa == "A")
         {
             //EXECUTA O COMANDO PARA RESPOSTA A
@@ -156,10 +156,6 @@ public class responder : MonoBehaviour
                 Errada();
             }
         }
-
-
-        //proximaPergunta();
-
     }
 
     public void mostrarPainel()
@@ -265,8 +261,11 @@ public class responder : MonoBehaviour
             PlayerPrefs.SetInt("acertosTemp" + idTema.ToString(), (int)acertos);
 
             SceneManager.LoadScene("notaFinal");
+
+  
         }
-    }
 
     
+    }
+
 }

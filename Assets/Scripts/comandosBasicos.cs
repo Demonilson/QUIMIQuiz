@@ -13,15 +13,10 @@ public class comandosBasicos : MonoBehaviour
         SceneManager.LoadScene(nomeCena);
     }
 
-    public void zerarpontuação()
-    {
-        PlayerPrefs.DeleteAll();
-    }
 
     public void sairJogo()
     {
         Application.Quit();
     }
 
-  
 }
