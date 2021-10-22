@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/loging.unity
+    guid: 5ae7acd444064cd428a0fe17b82f0f8f
+  - enabled: 1
     path: "Assets/Scenes/T\xEDtulo.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -17,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/T1.unity
     guid: 5e610deefd313ce45bae4be357bac1d9
+  - enabled: 1
+    path: Assets/Scenes/T2.unity
+    guid: 6bd6190d72e27274c91cea84d35febc2
   - enabled: 1
     path: Assets/Scenes/notaFinal.unity
     guid: 8687937008a259c4c880647dfa8e48c6

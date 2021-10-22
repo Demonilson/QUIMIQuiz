@@ -172,7 +172,6 @@ MonoBehaviour:
   respostaD: {fileID: 387071915}
   infoRespostas: {fileID: 1996101104}
   respostaCerta: {fileID: 282305840}
-  dicaPergunta: {fileID: 407877556}
   sons:
   - {fileID: 1219772039}
   - {fileID: 1496699713}
@@ -189,68 +188,27 @@ MonoBehaviour:
   imagemPergunta: {fileID: 1839857145}
   btnProximaPergunta: {fileID: 1155058100}
   perguntas:
-  - "Na tentativa de explicar qual a natureza da mat\xE9ria, surgiram v\xE1rias teorias
-    ao longo do tempo. Uma delas foi a Teoria dos Quatro Elementos. Segundo essa
-    teoria, que elementos eram esses?"
-  - "A alquimia \xE9 um per\xEDodo muito importante para a constru\xE7\xE3o da Qu\xEDmica
-    como Ci\xEAncia. Qual era o principal objetivo que os alquimistas buscavam com
-    seus estudos e experimentos?"
-  - "Que objetivo os Alquimistas almejavam com a s\xEDntese da t\xE3o sonhada Pedra
-    Filosofal?"
-  - "De acordo com a Teoria das Tr\xEAs Ess\xEAncias, quais elementos representavam
-    o esp\xEDrito, a alma, e o corpo? "
-  - "Lavoisier \xE9 considerado o \u201Cpai\u201D da Qu\xEDmica moderna devido a
-    import\xE2ncia de seus estudos. Qual foi seu principal trabalho?"
+  - "Quais os produtos da rea\xE7\xE3o de neutraliza\xE7\xE3o entre \xE1cido clor\xEDdrico
+    e hidr\xF3xido de s\xF3dio?"
+  - "quanto \xE9 1+1?"
   alternativaA:
-  - "\xC1gua, terra, fogo e ar"
-  - Sabedoria absoluta sobre o universo
-  - Conhecimento sobre todas as coisas do universo
-  - "\xC1gua, Fogo e Ar"
-  - "Lei da Conserva\xE7\xE3o das Massas"
+  - "\xC1gua e Sulfato Ferroso"
+  - 2
   alternativaB:
-  - "Hidrog\xEAnio, enxofre, carbono e oxig\xEAnio"
-  - "A busca pela s\xEDntese da pedra filosofal e o elixir da longa vida"
-  - "Cria\xE7\xE3o de Comida"
-  - "Hidrog\xEAnio, Oxig\xEAnio e Carbono"
-  - "Lei da Conserva\xE7\xE3o de Energia"
+  - "\xC1gua e Cloreto de S\xF3dio"
+  - 3
   alternativaC:
-  - "\xC1gua, eletricidade, calor e frio"
-  - "Constru\xE7\xE3o de equipamentos cada vez mais sofisticados"
-  - Utilizar como uma arma em guerras
-  - "Merc\xFArio, Enxofre e Sal"
-  - "Cria\xE7\xE3o da Estufa"
+  - "\xC1gua e Hipoclorito de S\xF3dio"
+  - 4
   alternativaD:
-  - "Luz, terra, fogo e \xE1gua"
-  - "Tornar a \xE1gua do mar boa para o consumo humano"
-  - "A transmuta\xE7\xE3o de metais nobres, como o ouro"
-  - Ouro, Ferro e Diamante
-  - "Transmuta\xE7\xE3o de Metais"
+  - "\xC1gua e Di\xF3xido de Carbono"
+  - 5
   corretas:
-  - "\xC1gua, terra, fogo e ar"
-  - "A busca pela s\xEDntese da pedra filosofal e o elixir da longa vida"
-  - "A transmuta\xE7\xE3o de metais nobres, como o ouro"
-  - "Merc\xFArio, Enxofre e Sal"
-  - "Lei da Conserva\xE7\xE3o das Massas"
+  - "\xC1gua e Cloreto de S\xF3dio"
+  - 2
   imagemDasQuestoes:
-  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
-  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
-  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
-  - {fileID: 21300000, guid: ee5157e686c521d40a9db2117c303f2f, type: 3}
-  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
-  dicas:
-  - "Essa teoria foi apresentada por Arist\xF3teles, que dizia que a mat\xE9ria era
-    constitu\xEDda por quatro elementos fundamentais, revolucionando a concep\xE7\xE3o
-    acerca da natureza da mat\xE9ria, pois ele conseguiu argumentar sobre as transforma\xE7\xF5es
-    entre os pr\xF3prios elementos."
-  - "Os alquimistas procuravam incessantemente por dois materiais: um deles seria
-    um rem\xE9dio milagroso capaz de curar qualquer doen\xE7a, o outro lhes daria
-    a capacidade de transmutar qualquer material, incluindo pedras preciosas."
-  - "A Pedra Filosofal seria um corpo s\xF3lido capaz de transmudar qualquer tipo
-    de material "
-  - "S\xEDmbolos que representavam esses elementos do esp\xEDrito, alma e corpo:"
-  - "Lavoisier \xE9 considerado o \u201Cpai\u201D da Qu\xEDmica moderna pois ele
-    usava t\xE9cnicas extremamente precisas para a \xE9poca, tais como o uso de balan\xE7as
-    e a realiza\xE7\xE3o de rea\xE7\xF5es em recipientes fechados."
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &96002109
 Transform:
   m_ObjectHideFlags: 0
@@ -622,8 +580,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: -111.6}
-  m_SizeDelta: {x: 774.64935, y: 1115.4653}
+  m_AnchoredPosition: {x: -1.6, y: 237.8}
+  m_SizeDelta: {x: 774.64935, y: 416.71973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407877556
 MonoBehaviour:
@@ -651,7 +609,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 100
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

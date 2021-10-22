@@ -17,7 +17,7 @@ public class responder : MonoBehaviour
     public Text respostaD;
     public Text infoRespostas;
     public Text respostaCerta;
-    //public Text dicaPergunta;
+    public Text dicaPergunta;
 
     public AudioSource[] sons;
     public GameObject painelDicas;
@@ -42,7 +42,7 @@ public class responder : MonoBehaviour
     public string[] alternativaD;      //armazena as alternativas D
     public string[] corretas;          //armazena as alternativas corretas
     public Sprite[] imagemDasQuestoes; //armazena as imagens das dicas
-    //public string[] dicas;           //armazena as dicas
+    public string[] dicas;           //armazena as dicas
 
 
     private int   idPergunta;
@@ -72,7 +72,7 @@ public class responder : MonoBehaviour
 
 
 
-        ////dicaPergunta.text = dicas[idPergunta];
+        dicaPergunta.text = dicas[idPergunta];
 
         infoRespostas.text = "Respondendo " + (idPergunta + 1).ToString() + " de " + questoes.ToString()+" perguntas";
  
@@ -241,7 +241,7 @@ public class responder : MonoBehaviour
             respostaC.text = alternativaC[idPergunta];
             respostaD.text = alternativaD[idPergunta];
             imagemPergunta.sprite = imagemDasQuestoes[idPergunta];
-            //dicaPergunta.text = dicas[idPergunta];
+            dicaPergunta.text = dicas[idPergunta];
 
             infoRespostas.text = "Respondendo " + (idPergunta + 1).ToString() + " de " + questoes.ToString() + " perguntas";
         }

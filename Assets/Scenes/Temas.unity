@@ -1051,7 +1051,7 @@ RectTransform:
   m_GameObject: {fileID: 288109969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6294417, y: 1.6294417, z: 1.6294417}
+  m_LocalScale: {x: 2.373771, y: 2.373771, z: 2.373771}
   m_Children:
   - {fileID: 1658587513}
   m_Father: {fileID: 1046122236}
@@ -1059,7 +1059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.9577, y: 595.86}
+  m_AnchoredPosition: {x: 141, y: 477}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288109971
@@ -1283,7 +1283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &344363327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1525,7 +1525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &373378219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2459,8 +2459,8 @@ MonoBehaviour:
   btnTema5: {fileID: 2103739550}
   nomeTema:
   - Selecione um tema
-  - "\xC1tomos e elementos qu\xEDmicos"
-  - "Liga\xE7\xF5es qu\xEDmicas e mudan\xE7as de estado"
+  - "A Qu\xEDmica antes da descoberta do \xE1tomo"
+  - "Modelos at\xF4micos"
   - "Transforma\xE7\xF5es qu\xEDmicas"
   - "Radia\xE7\xF5es e suas aplica\xE7\xF5es"
   - Luz e cores
@@ -4030,7 +4030,7 @@ RectTransform:
   m_GameObject: {fileID: 1248108367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6294417, y: 1.6294417, z: 1.6294417}
+  m_LocalScale: {x: 2.3737707, y: 2.3737707, z: 2.3737707}
   m_Children:
   - {fileID: 1773718630}
   m_Father: {fileID: 1046122236}
@@ -4038,7 +4038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.68, y: 595.86}
+  m_AnchoredPosition: {x: -143, y: 477}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248108369
@@ -5400,7 +5400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2103739548
 RectTransform:
   m_ObjectHideFlags: 0
