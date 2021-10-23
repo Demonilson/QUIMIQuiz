@@ -193,8 +193,7 @@ MonoBehaviour:
     ao longo do tempo. Uma delas foi a Teoria dos Quatro Elementos. Segundo essa
     teoria, que elementos eram esses?"
   - "A alquimia \xE9 um per\xEDodo muito importante para a constru\xE7\xE3o da Qu\xEDmica
-    como Ci\xEAncia. Qual era o principal objetivo que os alquimistas buscavam com
-    seus estudos e experimentos?"
+    como Ci\xEAncia. O que os alquimistas buscavam com seus estudos e experimentos?"
   - "Que objetivo os Alquimistas almejavam com a s\xEDntese da t\xE3o sonhada Pedra
     Filosofal?"
   - "De acordo com a Teoria das Tr\xEAs Ess\xEAncias, quais elementos representavam
@@ -392,8 +391,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.343018, y: -16.900146}
-  m_SizeDelta: {x: 18.82434, y: -667.02246}
+  m_AnchoredPosition: {x: 0, y: -16.900146}
+  m_SizeDelta: {x: 182.3435, y: -667.02246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199379443
 MonoBehaviour:
@@ -414,7 +413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3c039125988ae3d47b0288650f258658, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27b37639d724c6a4c8dc81989bf25eaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -622,8 +621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: -111.6}
-  m_SizeDelta: {x: 774.64935, y: 1115.4653}
+  m_AnchoredPosition: {x: 62.4, y: 1.6}
+  m_SizeDelta: {x: 811.2344, y: 1103.0405}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407877556
 MonoBehaviour:
@@ -638,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1229,7 +1228,7 @@ GameObject:
   - component: {fileID: 807641695}
   - component: {fileID: 807641694}
   m_Layer: 5
-  m_Name: PERGUNTA
+  m_Name: txtPERGUNTA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1251,8 +1250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7335, y: 724.2}
-  m_SizeDelta: {x: 913.3505, y: 225.55219}
+  m_AnchoredPosition: {x: 0.2, y: 729.9}
+  m_SizeDelta: {x: 948.73627, y: 269.9088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807641694
 MonoBehaviour:
@@ -1286,7 +1285,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Texto da pergunda vai aparecer aqui
+  m_Text: texto da pergunta
 --- !u!222 &807641695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2972,7 +2971,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -403.3}
+  m_AnchoredPosition: {x: -0.00000023842, y: -313.58}
   m_SizeDelta: {x: 561.1808, y: 472.67142}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1839857144

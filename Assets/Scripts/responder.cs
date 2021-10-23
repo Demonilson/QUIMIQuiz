@@ -173,17 +173,17 @@ public class responder : MonoBehaviour
 
     public void mostrarBotoes()
     {
-        botãoA.interactable = true;
-        botãoB.interactable = true;
-        botãoC.interactable = true;
-        botãoD.interactable = true;
+        botãoA.gameObject.SetActive(true);
+        botãoB.gameObject.SetActive(true);
+        botãoC.gameObject.SetActive(true);
+        botãoD.gameObject.SetActive(true);
     }
     public void ocultarBotoes()
     {
-        botãoA.interactable = false;
-        botãoB.interactable = false;
-        botãoC.interactable = false;
-        botãoD.interactable = false;
+        botãoA.gameObject.SetActive(false);
+        botãoB.gameObject.SetActive(false);
+        botãoC.gameObject.SetActive(false);
+        botãoD.gameObject.SetActive(false);
     }
 
     void Correta()

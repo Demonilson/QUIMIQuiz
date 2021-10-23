@@ -2464,7 +2464,7 @@ MonoBehaviour:
   - "Transforma\xE7\xF5es qu\xEDmicas"
   - "Radia\xE7\xF5es e suas aplica\xE7\xF5es"
   - Luz e cores
-  numeroQuestoes: 10
+  numeroQuestoes: 5
 --- !u!114 &610188125
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -172,6 +172,7 @@ MonoBehaviour:
   respostaD: {fileID: 387071915}
   infoRespostas: {fileID: 1996101104}
   respostaCerta: {fileID: 282305840}
+  dicaPergunta: {fileID: 407877556}
   sons:
   - {fileID: 1219772039}
   - {fileID: 1496699713}
@@ -188,27 +189,62 @@ MonoBehaviour:
   imagemPergunta: {fileID: 1839857145}
   btnProximaPergunta: {fileID: 1155058100}
   perguntas:
-  - "Quais os produtos da rea\xE7\xE3o de neutraliza\xE7\xE3o entre \xE1cido clor\xEDdrico
-    e hidr\xF3xido de s\xF3dio?"
-  - "quanto \xE9 1+1?"
+  - "De que forma o \xE1tomo era representado, segundo o modelo at\xF4mico de Dalton?"
+  - "De que forma o \xE1tomo era representado, segundo Thomson?"
+  - "Um dos experimentos que permitiram a constru\xE7\xE3o do modelo chamado de \u201Cmodelos
+    de Rutherford e Bohr\u201D foi realizado pelo cientista Ernest Rutherford e colaboradores.
+    Como foi realizado esse experimento?"
+  - "Quais s\xE3o as part\xEDculas fundamentais que comp\xF5em um \xE1tomo?"
+  - "Como \xE9 determinado o n\xFAmero at\xF4mico de um elemento qu\xEDmico?"
   alternativaA:
-  - "\xC1gua e Sulfato Ferroso"
-  - 2
+  - "Eram compostos por um n\xFAcleo positivo orbitado por part\xEDculas de carga
+    negativa"
+  - "Esf\xE9rico, s\xF3lido e indivis\xEDvel"
+  - "Atrav\xE9s do bombardeamento de part\xEDculas com carga el\xE9trica positiva
+    em uma fin\xEDssima folha de ouro"
+  - "Apenas pr\xF3tons"
+  - "Pelo n\xFAmero n\xEAutrons"
   alternativaB:
-  - "\xC1gua e Cloreto de S\xF3dio"
-  - 3
+  - "Eram part\xEDculas que poderiam ser infinitamente divididas"
+  - "Era formado por el\xE9trons mergulhados em uma esfera com carga positiva"
+  - "Atrav\xE9s da emiss\xE3o de descargas el\xE9tricas em ampolas de vidro contendo
+    gases \xE0 baixa press\xE3o, 0,01 atm"
+  - "Apenas pr\xF3tons e n\xEAutrons"
+  - "Pelo n\xFAmero pr\xF3tons e el\xE9trons"
   alternativaC:
-  - "\xC1gua e Hipoclorito de S\xF3dio"
-  - 4
+  - "Eram compostos por duas part\xEDculas denominadas pr\xF3tons e n\xEAutrons"
+  - "Era formado por um n\xFAcleo positivo orbitado por el\xE9trons"
+  - "Atrav\xE9s da visualiza\xE7\xE3o do \xE1tomo com um microsc\xF3pio"
+  - "Aapenas el\xE9trons"
+  - "Pelo n\xFAmero pr\xF3tons no n\xFAcleo"
   alternativaD:
-  - "\xC1gua e Di\xF3xido de Carbono"
-  - 5
+  - "Eram part\xEDculas indivis\xEDveis e indestrut\xEDveis"
+  - "Era composto por uma \xFAnica part\xEDcula, que poderia ser facilmente dividida"
+  - "Atrav\xE9s da visualiza\xE7\xE3o do espectro de absor\xE7\xE3o e emiss\xE3o
+    dos \xE1tomos, utilizando um Espectrosc\xF3pio"
+  - "Pr\xF3tons, n\xEAutrons e el\xE9trons"
+  - "Pelo n\xFAmero de n\xEAutrons ou el\xE9trons"
   corretas:
-  - "\xC1gua e Cloreto de S\xF3dio"
-  - 2
+  - "Eram part\xEDculas indivis\xEDveis e indestrut\xEDveis"
+  - "Era formado por el\xE9trons mergulhados em uma esfera com carga positiva"
+  - "Atrav\xE9s do bombardeamento de part\xEDculas com carga el\xE9trica positiva
+    em uma fin\xEDssima folha de ouro"
+  - "Pr\xF3tons, n\xEAutrons e el\xE9trons"
+  - "Pelo n\xFAmero pr\xF3tons no n\xFAcleo"
   imagemDasQuestoes:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
+  - {fileID: 21300000, guid: 9430df0517f47204792620def2152c99, type: 3}
+  - {fileID: 21300000, guid: b29833b38dac3094cb8115e2192adec9, type: 3}
+  - {fileID: 21300000, guid: b170ef9519a447e43a89761e6e5a6954, type: 3}
+  - {fileID: 21300000, guid: 306ca9adb808b2943aca0bab412bf58e, type: 3}
+  dicas:
+  - "o modelo at\xF4mico proposto por Dalton ficou conhecido como \u201CBola de Bilhar
+    (Sinuca)\u201D"
+  - "Modelo at\xF4mico proposto por Thomson, conhecido como \"Pudim de Passas\":"
+  - "Com seu experimento, Rutherford verificou que a maioria das part\xEDculas n\xE3o
+    sofriam desvios, mas algumas sofriam grandes desvios, chegando at\xE9 a ser refletidas."
+  - "Representa\xE7\xE3o gen\xE9rica de um \xE1tomo"
+  - "Descri\xE7\xE3o de um elemento qu\xEDmico na tabela peri\xF3dica:"
 --- !u!4 &96002109
 Transform:
   m_ObjectHideFlags: 0
@@ -216,12 +252,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96002106}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.0117953, y: 0.8210864, z: -0.10967277}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &96002110
 MonoBehaviour:
@@ -350,8 +386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.343018, y: -16.900146}
-  m_SizeDelta: {x: 18.82434, y: -667.02246}
+  m_AnchoredPosition: {x: 0, y: -16.900146}
+  m_SizeDelta: {x: 182.3435, y: -667.02246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199379443
 MonoBehaviour:
@@ -372,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3c039125988ae3d47b0288650f258658, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 27b37639d724c6a4c8dc81989bf25eaa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -580,8 +616,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: 237.8}
-  m_SizeDelta: {x: 774.64935, y: 416.71973}
+  m_AnchoredPosition: {x: 62.4, y: 242.1}
+  m_SizeDelta: {x: 811.2344, y: 622.0592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407877556
 MonoBehaviour:
@@ -596,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -609,7 +645,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 100
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1187,7 +1223,7 @@ GameObject:
   - component: {fileID: 807641695}
   - component: {fileID: 807641694}
   m_Layer: 5
-  m_Name: PERGUNTA
+  m_Name: txtPERGUNTA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1209,8 +1245,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.7335, y: 724.2}
-  m_SizeDelta: {x: 913.3505, y: 225.55219}
+  m_AnchoredPosition: {x: 0.2, y: 729.9}
+  m_SizeDelta: {x: 948.73627, y: 269.9088}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807641694
 MonoBehaviour:
@@ -1244,7 +1280,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Texto da pergunda vai aparecer aqui
+  m_Text: texto da pergunta
 --- !u!222 &807641695
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2812,7 +2848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581232785
 GameObject:
@@ -2930,7 +2966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -403.3}
+  m_AnchoredPosition: {x: -0.00000023842, y: -313.58}
   m_SizeDelta: {x: 561.1808, y: 472.67142}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1839857144
